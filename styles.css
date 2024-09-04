@@ -1,0 +1,107 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+nav{
+    background: linear-gradient(black 0% ,#3f3f3f);
+    height: 65px;
+    top: 0;
+    width:100%;
+   
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+    list-style: none;
+  
+    
+}
+
+.link1, .link2, .link3, .link4, .link5{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    vertical-align: middle;
+    border-radius: 4px;
+  
+    
+}
+
+.link1{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    border: 1px solid white;
+    margin: 20px auto;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    padding: auto;
+    margin:auto;
+    align-items:center;   
+    gap:15px; 
+    
+   }
+
+   .image1>img{
+    width:1535px;
+    height:550px;
+   
+   }
+   
+   .image2>img{
+    width:490px;
+    height:450px;
+    margin:10px;
+   }
+   
+   .image3>img{
+    width:490px;
+    height:450px;
+   }
+
+   .image4>img{
+    width:490px;
+    height:450px;
+   }
+
+   .bottom-container{
+    background-color:black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &>.description{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: justify;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    &>.image5>img{
+        margin:30px;
+    }
+   
+   }
+
+
+
+
+
+
